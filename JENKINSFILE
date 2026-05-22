@@ -1,0 +1,18 @@
+pipeline {
+    agent any
+    
+    stages {
+        stage('Clone') {
+            steps {
+                git branch: 'main',
+                url: 'https://github.com/cser-srishti-beaspal/sample_java.git'
+            }
+        }
+        stage('Execute') {
+            steps {
+                bat '''javac Test.java
+                    java Test.java'''
+            }
+        }
+    }
+}
