@@ -6,6 +6,7 @@ public class Test {
     int b=65;
     int result = a*b;
     System.out.println(" Sum Practice ");
+    System.out.println("This is the End");
     System.out.println("The sum is -  " +result);
     
   }
