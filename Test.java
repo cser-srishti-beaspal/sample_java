@@ -5,7 +5,7 @@ public class Test {
     int a=48;
     int b=65;
     int result = a*b;
-    System.out.println(" Sum Practice ");
+    System.out.println(" NO ERROR ");
     System.out.println("26 me toh duniya hi khtm hai");
     System.out.println("The sum is -  " +result);
     
