@@ -7,6 +7,7 @@ public class Test {
     int result = a*b;
     System.out.println(" Sum Practice ");
     System.out.println("This is the End");
+    System.out.println("26 me toh duniya hi khtm hai");
     System.out.println("The sum is -  " +result);
     
   }
