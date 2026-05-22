@@ -3,7 +3,7 @@ public class Test {
   static void add(){
 
     int a=40;
-    int b=25;
+    int b=05;
     int result = a*b;
     System.out.println(" NO ERROR Please ");
     
